@@ -8,4 +8,5 @@ include_directories(00-Vector)
 
 add_executable(01_LeetCode
         00-Vector/main.cpp
-        00-Vector/MyVector.h)
+        00-Vector/MyVector.h
+        01-Array/binarySearch/main.cpp)

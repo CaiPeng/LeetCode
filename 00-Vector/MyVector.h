@@ -40,7 +40,6 @@ public:
         // assert(size<capacity);
         if (size == capacity) {
             resize(2 * capacity);
-
         }
 
         data[size++] = e;
